@@ -14,8 +14,7 @@ h1 {
   font-size: 50px;
 }
 p {
-  margin-top: 200px;
-  margin-left: 350px;
+  margin: 200px auto 40px;
   font-size: 40px;
   background-color: black;
   color: white;
@@ -26,8 +25,10 @@ p:hover {
   color: black;
 }
 div.buttons {
-  margin-top: 100px;
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 button {
   margin: 20px;

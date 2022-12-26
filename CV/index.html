@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/cv.ico">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#education">EDUCATION</a>
+        <a href="#experience">WORK EXPERIENCE</a>
+        <a href="#tech">TECHNICAL SKILLS</a>
+        <a href="#code">CODE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#general">GENERAL</a>
+    </header>
+    <div class="info">
+        <div class="me">
+            <img src="./assets/img/photo_2022-11-11_22-53-57.jpg" alt="Me">
+            <div class="namePosition">
+                <p class="name">RASUL MAMASHEV</p>
+                <p class="position">Frontend Developer</p>
+                <div class="contacts">
+                    <a href="https://t.me/rasulmadrid"><img src="./assets/svg/Telegram_logo.svg.webp" alt="Telegram" class="logo"></a>
+                    <a href="https://github.com/M-Rasul"><img src="./assets/svg/Octicons-mark-github.svg" alt="GitHub" class="logo"></a>
+                    <a href="https://www.linkedin.com/in/rasul-mamashev-682820210/"><img src="./assets/svg/LinkedIn_icon.svg.png" alt="LinkedIn" class="logo"></a>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
+            <p><i>Something that drives me forward is programming...</i></p>
+            <p class="by">&copy; Rasul Mamashev</p>    
+        </div>
+        <div class="information">
+            <div class="skills">
+                <div class="skill" id="education">
+                    <h2>Education</h2>
+                    <div class="education">
+                        <h4>Inha University in Tashkent 2020-2024</h4>
+                        <p>Currently studying at Inha University in Tashkent in faculty of Computer and information engineering</p>
+                    </div>
+                    <div class="education">
+                        <h4>Comprehensive School 17 2009-2020</h4>
+                        <p>Passed primary and high schools there with final grade 5.0</p>
+                    </div>
+                </div>
+                <div class="skill" id="experience">
+                    <h2>Work Experience</h2>
+                    <div class="work">
+                        <h4>Founderz Inc. June 2022 - January 2023</h4>
+                        <p>In this position i developed various platforms and CRM systems like supplements online shop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill" id="tech">
+                    <h2>Technical Skills</h2>
+                    <div class="technical">
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React JS</li>
+                            <li>Rest API</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill" id="code">
+                    <h2>Piece of my code</h2>
+                    <div class="code">
+                        <textarea cols="30" rows="10" disabled="true">btnStart.addEventListener("click", function () {
+                            myIntervalMsec = setInterval(updateMsec, 10);
+                            btnStart.disabled = "true";
+                          });
+                          btnStop.addEventListener("click", function () {
+                            btnStart.disabled = false;
+                            clearInterval(myIntervalMsec);
+                          });</textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="skills no-border">
+                <div class="skill" id="projects">
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <ul>
+                            <li><a href="https://github.com/M-Rasul/JavaScript/tree/master/Guess%20My%20Number%20Game">Guess My Number</a></li>
+                            <li><a href="https://github.com/M-Rasul/JavaScript/tree/master/Bankist">Bankist App</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skill" id="general">
+                    <h2>General Skills</h2>
+                    <div class="general">
+                        <ul>
+                            <li>English - C1 (Got 7.5 overall band in IELTS exam)</li>
+                            <li>Communication</li>
+                            <li>Team Work</li>
+                            <li>Organizational</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+            <a href="https://github.com/M-Rasul" class="github"><p>&copy; Rasul Mamashev</p></a>
+        </footer>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

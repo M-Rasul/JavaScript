@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("./assets/fonts/Oranienbaum.woff") format("woff"), 
+	url("./assets/fonts/Oranienbaum.woff2") format("woff2");
+}
+body {
+	font-family: 'Roboto';
+	margin: 0;
+}
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+}
+.header a {
+	font-size: 20px;
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+}
+.fixed {
+	position: sticky;
+	top: 0;
+}
+.info {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 60%;
+}
+.me {
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 5px solid #000000;
+	padding-bottom: 10px;
+	flex-wrap: wrap;
+}
+.me img {
+	width: 250px;
+	height: 190px;
+	border-radius: 10px;
+}
+.namePosition {
+	text-align: center;
+}
+.name {
+	font-size: 40px;
+}
+.position {
+	font-size: 20px;
+}
+.by {
+	text-align: right;
+}
+.quote p i {
+	font-size: 20px;
+}
+.quote .by {
+	font-size: 16px;
+}
+.quote {
+	border-bottom: 1px solid black;
+}
+.contacts {
+	display: flex;
+	justify-content: space-around;
+}
+.contacts .logo {
+	width: 30px;
+	height: 30px;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	flex-wrap: wrap;
+}
+.no-border {
+	border-bottom: none;
+}
+.education {
+	margin-top: 20px;
+}
+.education p, .work p {
+	width: 80%;
+	overflow-wrap: break-word;
+}
+.code textarea {
+	width: 300px;
+}
+.technical li, .projects li, .general li {
+	list-style-type: square;
+	margin-top: 10px;
+	font-size: 18px;
+	font-style: italic;
+}
+.projects li a {
+	color: black;
+}
+.projects li a:hover {
+	color: gray;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	height: 100px;
+	width: 100%;
+	background-color: gray;
+}
+.footer {
+	width: 100%;
+}
+footer p {
+	color: white;
+	text-align: right;
+	position: relative;
+	top: 0px;
+	margin-right: 10px;
+}
+footer a {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+footer .github {
+	text-decoration: none;
+}
+footer p:hover {
+	color: black;
+	transition: 0.4s;
+}
+footer img {
+	width: 82px;
+}
+@media(max-width: 700px) {
+	.header {
+		opacity: 0;
+	}
+}
